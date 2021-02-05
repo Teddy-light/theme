@@ -4,13 +4,14 @@
 }
 
 .product li span {
-    color: greenyellow;
+    color: green;
     margin-right: 1rem;
 
 }
 
 .product li {
     padding: 2px;
+    color: #515769;
 }
 
 .product h4 span {
@@ -18,10 +19,60 @@
 }
 
 .product {
-    box-shadow: 0px 5px 5px gray; 
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.427); 
     margin-left: 2%;
     margin-right: 2%;
     max-width: 45%;
     background-color: white;
     padding: 5%;
+    padding-top: 1%;
+}
+
+ #essentiel {
+    box-shadow: 0px 3px 5px rgba(4, 164, 9, 0.31); 
+
+}
+
+#expert {
+    box-shadow: 0px 3px 5px rgba(4, 116, 164, 0.31); 
+
+}
+
+#pricing {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#pricing h3 {
+    color: #515769;
+}
+
+#options {
+    margin-top: 40px;
+}
+
+.welcome-message {
+    padding: 2%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: 10%;
+    max-width: 30%;
+  }
+
+  .moto {
+      font-size:xx-large;
+      font-weight: bolder;
+      color: #515769;
+  }
+
+  .welcome-message p:nth-child(2){
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+#about h2 {
+    text-align: center;
+    color: #515769;
 }
