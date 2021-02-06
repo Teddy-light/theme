@@ -76,3 +76,54 @@
     text-align: center;
     color: #515769;
 }
+
+
+.option-list-item {
+    position: relative;
+    font-size: 13px;
+    color: #81848f;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.pricing-top {
+    background-color: #337ab7;
+    padding: 5% 3% 5% 3%;
+}
+
+.pricing-top #pricing-icon  {
+    color: white;
+}
+
+#price .pricing {
+    padding: 0;
+    max-width: 500px;
+
+}
+
+.pricing-top .toogle {
+    width: 60px;
+    height: 30px;
+    background-color:rgb(0, 224, 0);
+    margin: 0px 10px 0px 10px;
+    border-radius: 30px;
+} 
+
+.pricing-top .toogle-month {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 30px;
+} 
+
+.pricing-top .toogle-year {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 5px;
+    margin-left: 30px;
+    border-radius: 30px;
+} 
