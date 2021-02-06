@@ -95,6 +95,7 @@
 
 .pricing-top #pricing-icon  {
     color: white;
+    font-size: 48px;
 }
 
 #price .pricing {
@@ -127,3 +128,13 @@
     margin-left: 30px;
     border-radius: 30px;
 } 
+
+.pricing h3 {
+   color: #515769
+}
+
+.option-list-item #option-price {
+    font-weight: 700;
+    font-size: 22px;
+    color: #515769;
+}
