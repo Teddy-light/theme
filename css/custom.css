@@ -19,11 +19,11 @@
 }
 
 .product {
-    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.427); 
-    margin-left: 2%;
-    margin-right: 2%;
-    max-width: 45%;
-    background-color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    background-color: #fafafa;
     padding: 5%;
     padding-top: 1%;
 }
@@ -54,17 +54,39 @@
 }
 
 .welcome-message {
-    padding: 2%;
-    background-color: white;
-    margin-right: auto;
-    margin-left: 10%;
-    max-width: 30%;
+        /* width: 400px; */
+        padding: 2%;
+        background-color: white;
+        margin-right: auto;
+        max-width: 420px;
+        max-height: 420px;
   }
 
   .moto {
+    color: #337ab7;
+
+      font-size:x-large;
+      font-weight: bolder;
+      /* color: #515769; */
+  }
+
+  @media (min-width: 560px) {
+    .welcome-message {
+        /* width: 400px; */
+        padding: 2%;
+        background-color: white;
+        margin-right: auto;
+        margin-left: 10%;
+        max-width: 520px;
+        max-height: 520px;
+  }
+      .moto {
+      color: #337ab7;
+
       font-size:xx-large;
       font-weight: bolder;
-      color: #515769;
+      /* color: #515769; */
+  }
   }
 
   .welcome-message p:nth-child(2){
