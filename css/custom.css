@@ -22,10 +22,24 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
+    border: 1px  gray;
+    border-style: ridge;
     background-color: #fafafa;
     padding: 5%;
     padding-top: 1%;
+    padding-bottom: 0%;
+    z-index: -1;
+}
+
+.product .more {
+    position: relative;
+    width: auto;
+    height: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0.6293068252691701) 0%, rgba(255,255,255,1) 100%);
+    bottom: 100px;
+    margin-bottom: -80px;
+    z-index: 1;
 }
 
  #essentiel {
