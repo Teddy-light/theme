@@ -24,12 +24,14 @@
     text-overflow: ellipsis;
     border: 1px  gray;
     border-style: ridge;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     padding: 5%;
     padding-top: 1%;
     padding-bottom: 0%;
     z-index: -1;
 }
+
+
 
 .product .more {
     position: relative;
@@ -40,6 +42,27 @@
     bottom: 100px;
     margin-bottom: -80px;
     z-index: 1;
+    -webkit-animation-name: updown;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: 10;
+    -webkit-animation-direction: alternate;
+    animation-name: updown;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: 10;
+    
+}
+
+@keyframes updown {
+    from {bottom: 100px;}
+    to {bottom: 80px;}
+}
+
+.product .more span {
+    border: solid black 1px;
+    border-radius: 30px;
 }
 
  #essentiel {
@@ -167,6 +190,34 @@
 
 .pricing h3 {
    color: #515769
+}
+
+.post {
+    text-align: center;
+}
+
+.post p {
+    font-size: 25px;
+}
+
+
+.pricing .post div :nth-child(1){
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.pricing-top div :nth-child(2){
+    padding-left: 10%;
+    padding-right: 10%;
+} 
+
+.pricing .post div :nth-child(2){
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .option-list-item #option-price {
