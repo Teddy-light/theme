@@ -86,6 +86,14 @@
     color: #515769;
 }
 
+#price-amount span {
+    font-size: large;
+}
+
+#price-amount  {
+    font-size: xx-large;
+}
+
 #options {
     margin-top: 40px;
 }
@@ -233,6 +241,6 @@ margin-left: 60%;
 
 .option-list-item #option-price {
     font-weight: 700;
-    font-size: 22px;
+    font-size: x-large;
     color: #515769;
 }
