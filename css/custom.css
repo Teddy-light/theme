@@ -94,6 +94,14 @@
     font-size: xx-large;
 }
 
+#price-amount2 span {
+    font-size: large;
+}
+
+#price-amount2  {
+    font-size: xx-large;
+}
+
 #options {
     margin-top: 40px;
 }
