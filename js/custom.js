@@ -196,3 +196,14 @@ const handleMoveBarBis = (newPost) => {
 
 
 }
+
+
+const moveMore = (index) => {
+        if (index === "1") {
+            const more1 = document.getElementById("more1")
+            more1.style.animationDuration = "infinite"
+        } else if (index === "2") {
+            const more2 = document.getElementById("more2")
+            more1.style.animationDuration = "infinite"
+        }
+}

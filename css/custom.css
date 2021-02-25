@@ -43,17 +43,25 @@
     margin-bottom: -80px;
     z-index: 1;
     -webkit-animation-name: updown;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 2s;
     -webkit-animation-timing-function: ease-out;
     -webkit-animation-iteration-count: 10;
     -webkit-animation-direction: alternate;
     animation-name: updown;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: ease-out;
     animation-direction: alternate;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 0;
+    cursor: pointer;
     
 }
+
+.product .more:hover {
+    animation-iteration-count: infinite;
+
+}
+
+
 
 @keyframes updown {
     from {bottom: 100px;}
