@@ -260,3 +260,14 @@ margin-left: 60%;
     font-size: x-large;
     color: #515769;
 }
+
+
+@media (min-width: 1800px) {
+
+    .img-responsive-2 {
+        max-width: 1820px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
