@@ -131,6 +131,25 @@
       /* color: #515769; */
   }
 
+  @media (max-width: 768px) {
+      .fonction-section {
+          width: 100%;
+          display: flex;
+          justify-items: center;
+          padding: 5%;
+          box-shadow: 1px 1px 3px #81848fac;
+      }
+      .fonction-section p {
+          width: 90%;
+      }
+      .fonction-section div {
+          width: 10%;
+      }
+      .container {
+          padding: 0;
+      }
+  }
+
   @media (min-width: 560px) {
     .welcome-message {
         /* width: 400px; */
