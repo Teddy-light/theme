@@ -207,3 +207,30 @@ const moveMore = (index) => {
             more1.style.animationDuration = "infinite"
         }
 }
+
+
+
+const openSection = (sectionId) => {
+
+    const section = document.getElementById(sectionId);
+    const icon = section.children[1];
+    const content = section.children[2];
+
+    let isOpen = content.style.display === "block";
+
+
+    const sectionContents = document.getElementsByClassName("section-content");
+    
+
+    if (isOpen) {
+        //close section
+        icon.style.transform = "rotate(0deg)";
+        content.style.display = "none";
+        isOpen = false;
+    } else {
+        //open section
+      icon.style.transform = "rotate(180deg)";
+      content.style.display = "block";
+      isOpen = true;
+    }
+}

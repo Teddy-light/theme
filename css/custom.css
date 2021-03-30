@@ -135,19 +135,37 @@
       .fonction-section {
           width: 100%;
           display: flex;
+          flex-wrap: wrap;
           justify-items: center;
           padding: 5%;
-          box-shadow: 1px 1px 3px #81848fac;
+          box-shadow: 1px 1px 1px #81848fac;
       }
+
+      .fonction-section span {
+          height: 24px;
+      }
+
+      .fonction-section > p {
+          font-size: large;
+      }
+
       .fonction-section p {
           width: 90%;
       }
-      .fonction-section div {
-          width: 10%;
+      .fonction-section > div  {
+         display: none;
       }
+
+      
       .container {
           padding: 0;
       }
+
+      #contact, .footer, #work, #services h2 {
+          padding-left: 2%;
+          padding-right: 2%;
+      }
+     
   }
 
   @media (min-width: 560px) {
