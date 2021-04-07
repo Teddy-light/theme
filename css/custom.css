@@ -261,9 +261,9 @@
           padding: 0;
       }
 
-      #contact, .footer, #work, #services h2 {
-          padding-left: 2%;
-          padding-right: 2%;
+      #contact, .footer, #work, #services h2, #services h3 {
+          padding-left: 25px;
+          padding-right: 25px;
       }
 
       .product {
